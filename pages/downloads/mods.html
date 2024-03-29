@@ -1,87 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Borpl Mod Downloads</title>
-    <link rel="stylesheet" type="text/css" href="../../style.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #3e3e3e;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .mod-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            grid-gap: 20px;
-        }
-        .mod-box {
-            background-color: #595959;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-        .mod-box img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
-        }
-        .mod-box .button {
-            display: inline-block;
-            padding: 8px 16px;
-            background-color: #007bff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-        .mod-box .button:hover {
-            background-color: #0056b3;
-        }
-        h1 {
-            text-align: center;
-            color: #ffffff;
-            margin: 0;
-            padding: 0;
-            font-size: 8vmin;
-            font-weight: 500;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Borpl Mods Gallery</title>
+  <link href="./mods.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-    <div class="container">
-        <h1>Mod Downloads</h1>
-        <br>
-        <div class="mod-grid">
-            <div class="mod-box">
-                <img src="../../images/InstantCooldowns.jpg" alt="Instant Cooldowns">
-                <a href="../../data/mods/Nocooldowns.zip" class="button">Download Instant Cooldowns</a>
-            </div>
-            <div class="mod-box">
-                <img src="../../images/ArrowWallIcon.jpg" alt="Arrow Wall">
-                <a href="../../data/mods/mod2.zip" class="button">Download Arrow Wall</a>
-            </div>
-            <div class="mod-box">
-                <img src="../../images/AntiSquish.png" alt="AntiSquish">
-                <a href="../../data/mods/Anitquish.zip" class="button">Download AntiSquish</a>
-            </div>
-            <div class="mod-box">
-                <img src="../../images/AbilityStorm.jpg" alt="Ability Storm">
-                <a href="../../data/mods/Anitquish.zip" class="button">Download Ability Storm</a>
-            </div>
-            <div class="mod-box">
-                <img src="../../images/Bopl_Guns_Mod.png" alt="Guns Mod">
-                <a href="../../data/mods/Anitquish.zip" class="button">Download Guns Mod</a>
-            </div>
-        </div>
+  <div id="stopInteraction"></div>
+  <div class="about">
+    <h1 class="aboutHeader"><img id="aboutImg" src="images/mods/AbilityStorm.png">About</h1>
+    <p id="aboutText">Some text that just goes on and on until I fart. Btw I just farted.</p>
+
+    <div class="aboutButtonContainer">
+    <button id="aboutClose">Close</button>
+    <button id="aboutButton">I just shat my pants.</button>
     </div>
+  </div>
+  <h1 class="header">Borpl Mods Gallery</h1>
+  <h2 class="subheader">This is just a site showcasing some mods; borpl is not affiliated with most mods shown below.</h2>
+  <div class="gallery">
+    <!-- <div class="mod">
+      <img class="modImg" src="images/mods/AbilityStorm.png">
+      <p class="modName">Ability Stormeeeeeeeee</p>
+      <div class="buttonContainer">
+        <button class="seeWiki">Wiki</button><button class="seeGithub">Github</button>
+      </div>
+    </div> -->
+
+  </div>
+  <script src="./Javascript/mods.js"></script>
 </body>
+
 </html>

@@ -6,28 +6,32 @@ body {
 }
 
 header {
-    color: #fff;
+    color: #ffffff;
     text-align: center;
-    background-color: rgba(135, 206, 250, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     font-size: 32px;
+    width: 60%;
+    margin: 0 auto; /* Add this line */
+    border-radius: 20px;
 }
+
 
 section {
     max-width: 800px;
     margin: 2em auto;
-    padding: 1em;
-    background-color: rgba(255, 255, 255, 0.7); /* Light opaque white background */
+    padding: 2em;
+    background-color: rgba(0, 74, 85, 0.7); /* Light opaque white background */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2 {
-    color: #333;
+    color: #7be0ff;
 }
 
 p {
     line-height: 1.6;
-    color: #555;
+    color: #ffffff;
 }
 
 ul {
@@ -54,8 +58,9 @@ footer {
     text-align: center;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 15%;
     font-size: 12px;
+    right: 0%;
 }
 .button-list {
     display: flex;
@@ -65,7 +70,7 @@ footer {
 
 .button {
     display: inline-block;
-    padding: 10px 15px;
+    padding: 10px 25px;
     background-color: #5f9cf9; /* Light blue color */
     color: #fff;
     text-decoration: none;

@@ -9,7 +9,8 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "start": "node server/api/server.js"
+    "start": "node server/api/server.js",
+    "dev": "nodemon server/api/server.js"
   },
   "keywords": [],
   "author": "",

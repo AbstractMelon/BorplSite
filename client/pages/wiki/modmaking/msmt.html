@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melons Simple Mod Template</title>
+    <link rel="stylesheet" type="text/css" href="../wiki.css">
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('../../../images/background.png') center/cover fixed; /* Adjust the path to your background image */
+        }
+
+        header {
+            color: #ffffff;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            font-size: 32px;
+            width: 60%;
+            margin: 0 auto; /* Add this line */
+            border-radius: 20px;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 2em;
+            background-color: rgba(0, 74, 85, 0.7); /* Light opaque white background */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #7be0ff;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #ffffff;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 0.5em;
+        }
+
+        a {
+            color: #e5ff00; /* Light blue link color */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: rgba(135, 206, 250, 0.3);
+            color: #fff;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 15%;
+            font-size: 12px;
+            right: 0%;
+        }
+
+        .button-list {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px; /* Adjust as needed */
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 25px;
+            background-color: #5f9cf9; /* Light blue color */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+            font-size: 24px;
+        }
+
+        .button:hover {
+            background-color: #1900a6; /* Darker blue color on hover */
+        }
+
+        .button-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+            gap: 10px;
+        }
+
+        .tool-button {
+            display: inline-block;
+            padding: 20px;
+            background-color: #87CEFA; /* Light blue color */
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 5px;
+            font-size: 32px;
+            transition: background-color 0.3s ease;
+        }
+
+        .tool-button:hover {
+            background-color: #0066cc; /* Darker blue color on hover */
+        }
+        pre {
+            background-color: #1b1b1b56;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+
+        code {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Melons Simple Mod Template</h1>
+    </header>
+    <section>
+        <h2>Step 1: Setting Up the Namespace and Dependencies</h2>
+        <p>In your C# script, begin by including the necessary namespaces and dependencies:</p>
+        <pre><code class="language-csharp">using BepInEx;
+using BoplFixedMath;
+using HarmonyLib;
+using System.Reflection;
+using UnityEngine;</code></pre>
+<p>BoplFixedMath is a library used by bopl battle to make the physics deterministic. You will need to do (Fix) whenever you are doing math.</p>
+
+        <h2>Step 2: Creating the Plugin Class</h2>
+        <p>Create a class that uses BaseUnityPlugin and give it the BepInPlugin attribute:</p>
+        <pre><code class="language-csharp">
+namespace ModName
+{
+    [BepInPlugin("com.YourName.ModName", "ModName", "1.0.0")]
+    public class Plugin : BaseUnityPlugin
+    {
+        private void Awake()
+        {
+            
+        }
+    }
+}
+        </code></pre>
+<p>Remeber to replace Yourname and Modname with your name</p>
+
+        <h2>Step 3: Implementing the Awake Method</h2>
+        <p>Within the Plugin class, implement the Awake method. This method will be called when the plugin is loaded:</p>
+        <pre><code class="language-csharp">private void Awake()
+{
+    Logger.LogInfo("Plugin ModName is loaded!");
+
+    Harmony harmony = new Harmony("com.YourName.ModName");
+
+    MethodInfo original = AccessTools.Method(typeof(Class), "Awake");
+    MethodInfo patch = AccessTools.Method(typeof(myPatches), "Awake_ModName_Plug");
+    harmony.Patch(original, new HarmonyMethod(patch));
+}</code></pre>
+<p>Replace <code>class</code> with your class from DnSpy</p>
+
+        <h2>Step 4: Defining Patch Methods</h2>
+        <p>Create a nested class within the Plugin class to define your patch methods:</p>
+        <pre><code class="language-csharp">public class myPatches
+{
+    public static void Awake_Modname_Plug(Class __instance)
+    {
+        __instance.Property = (Fix)Value;
+    }
+}</code></pre>
+<p>Remember to replace <code>class</code> again and replace <code>Property</code> and <code>value</code> with your property and value from DnSpy</p>
+<h2>Step 5: Final plugin</h2>
+<p>Your final plugin will look something like this:</p>
+<pre><code class="language-csharp">
+using BepInEx;
+using BoplFixedMath;
+using HarmonyLib;
+using System.Reflection;
+using UnityEngine;
+
+namespace InstantCooldowns
+{
+    [BepInPlugin("com.Melon.InstantCooldowns", "Instant Cooldowns", "1.0.0")]
+    public class Plugin : BaseUnityPlugin
+    {
+        private void Awake()
+        {
+            Logger.LogInfo("InstantCooldowns has loaded!");
+
+            Harmony harmony = new Harmony("com.Melon.InstantCooldowns");
+
+
+            MethodInfo original = AccessTools.Method(typeof(Ability), "Awake");
+            MethodInfo patch = AccessTools.Method(typeof(myPatches), "Awake_InstantCooldowns_Plug");
+            harmony.Patch(original, new HarmonyMethod(patch));
+        }
+
+        public class myPatches
+        {
+            public static void Awake_Modname_Plug(Ability __instance)
+            {
+                __instance.Cooldown = (Fix)0;
+            }
+        }
+    }
+}</code></pre>
+
+        <h2>Summary</h2>
+        <p>Congratulations! You've just created a basic mod using C# for Bopl. This tutorial covered setting up namespaces, creating a plugin class, implementing the Awake method, and defining patch methods using Harmony.</p>
+    </section>
+    <footer>
+    </footer>
+</body>
+</html>

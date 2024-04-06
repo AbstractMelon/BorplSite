@@ -58,15 +58,16 @@ body {
   grid-template-columns: repeat(auto-fill, 20vmin);
   grid-auto-rows: minmax(32.5vmin, 33vmin);
 
-  gap: 15px;
+  gap: 30px;
 
   overflow-y: scroll;
 }
 
 
 .mod {
-  width: 20vmin;
-  height: 32.5vmin;
+  width: 24 vmin;
+  height: 33.5vmin;
+  width: 110%;
   background-color: #40a7ec;
   border-radius: 1vmin;
   position: relative;

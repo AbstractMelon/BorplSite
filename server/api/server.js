@@ -12,12 +12,12 @@ app.use((req, res, next) => {
 });
 
 // Serve static files
-app.use(express.static(path.join(__dirname, '../client')));
+app.use(express.static(path.join(__dirname, '../..//client')));
 
 // API endpoints
 app.get('/api/guns', (req, res) => {
     // Read guns data from guns.json
-    fs.readFile(path.join(__dirname, '../JSONdb/guns/guns.json'), (err, data) => {
+    fs.readFile(path.join(__dirname, '../JSONdb/data/guns/guns.json'), (err, data) => {
         if (err) {
             console.error('Error reading guns data:', err);
             res.status(500).json({ error: 'Internal server error' });
@@ -31,7 +31,7 @@ app.get('/api/guns', (req, res) => {
 // Additional API endpoints
 app.get('/api/modlist', (req, res) => {
     // Read mods data from mods.json
-    fs.readFile(path.join(__dirname, '../JSONdb/mods/mods.json'), (err, data) => {
+    fs.readFile(path.join(__dirname, '../JSONdb/data/mods/mods.json'), (err, data) => {
         if (err) {
             console.error('Error reading mods data:', err);
             res.status(500).json({ error: 'Internal server error' });
@@ -45,7 +45,7 @@ app.get('/api/modlist', (req, res) => {
 app.get('/api/mod/:modId', (req, res) => {
     const modId = req.params.modId;
     // Read mods data from mods.json
-    fs.readFile(path.join(__dirname, '../JSONdb/mods/mods.json'), (err, data) => {
+    fs.readFile(path.join(__dirname, '../JSONdb/data/mods/mods.json'), (err, data) => {
         if (err) {
             console.error('Error reading mods data:', err);
             res.status(500).json({ error: 'Internal server error' });

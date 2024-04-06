@@ -29,13 +29,6 @@
       "github": "https://github.com/AbstractMelon/BoplBattleMods/releases/tag/bigger-black-holes-v1.1.0"
     },
     {
-      "name": "Bopl Guns",
-      "author": "ShAdowDev16",
-      "img": "GunsMod.png",
-      "description": "",
-      "github": "https://github.com/ShAdowDev16/BoplGuns"
-    },
-    {
       "name": "Map Selector",
       "author": "AbstractMelon and Mathlover3",
       "img": "MapSelector.png",
@@ -51,84 +44,84 @@
     },
     {
       "name": "Almighty Push",
-      "author": "Unknown",
+      "author": "Really Bad Dev",
       "img": "Almighty_Push.png",
       "description": "",
       "github": ""
     },
     {
       "name": "Any Color",
-      "author": "Unknown",
+      "author": "David",
       "img": "AnyColor.png",
       "description": "",
       "github": ""
     },
     {
       "name": "Arrow Circle",
-      "author": "Unknown",
+      "author": "Breh",
       "img": "ArrowCircle.png",
       "description": "",
       "github": ""
     },
     {
       "name": "Guns Mod",
-      "author": "Unknown",
+      "author": "ShAdowDev16",
       "img": "GunsMod.png",
       "description": "",
-      "github": ""
+      "github": "https://github.com/ShAdowDev16/BoplGuns"
     },
     {
       "name": "Infinite Platform Size",
-      "author": "Unknown",
+      "author": "Diggity",
       "img": "InfinitePlatformSize.png",
       "description": "",
       "github": ""
     },
     {
       "name": "Instant Cooldowns",
-      "author": "Unknown",
+      "author": "AbstractMelon",
       "img": "InstantCooldowns.jpg",
       "description": "",
       "github": ""
     },
     {
       "name": "Low Gravity",
-      "author": "Unknown",
+      "author": "Master Oogway",
       "img": "LowGravity.png",
       "description": "",
       "github": ""
     },
     {
       "name": "No Spike Disappear",
-      "author": "Unknown",
+      "author": "R4aina",
       "img": "NoSpikeDisappear.png",
       "description": "",
       "github": ""
     },
     {
       "name": "Same Color",
-      "author": "Unknown",
+      "author": "David",
       "img": "SameColor.png",
       "description": "",
       "github": ""
     },
     {
       "name": "Spectator Mode",
-      "author": "Unknown",
+      "author": "Diggity",
       "img": "SpectatorMode.png",
       "description": "",
       "github": ""
     },
     {
       "name": "Speedy Player",
-      "author": "Unknown",
+      "author": "Master Oogway",
       "img": "SpeedyPlayer.png",
       "description": "",
       "github": ""
     },
     {
       "name": "Time Stop Timer",
-      "author": "Unknown",
+      "author": "Antimality",
       "img": "TimeStopTimer.png",
       "description": "",
       "github": ""

@@ -55,12 +55,12 @@
       document.querySelector(".about").style.transform = "translate(-200%, -200%)"
       
     
-    let jsonData = await fetch("./../../server/JSONdb/data/mods/mods.json", { cache: "no-store" })
+    let jsonData = await fetch("./mods.json", { cache: "no-store" })
       // console.log(jsonData)
     jsonData = await jsonData.json()
       console.log(jsonData)
       jsonData.mods.forEach((mod)=>{
         //mod scheme: {"name": "Ability Storm","author": "unluckycrafter","img":"AbilityStorm.png","wiki":"","github":""}
-        addMod(mod.name, mod.author==""?"Mod author not found.":mod.author, "./images/mods/"+mod.img, mod.github==""?"./503.html":mod.github,mod.description==""?"Error 503: Text currently not available.":mod.description)
+        addMod(mod.name, mod.author==""?"Mod author not found.":mod.author, "../../images/modicons/"+mod.img, mod.github==""?"./503.html":mod.github,mod.description==""?"Error 503: Text currently not available.":mod.description)
       })
-    })()
+})()

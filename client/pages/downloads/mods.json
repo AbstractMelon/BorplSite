@@ -32,10 +32,7 @@
       "name": "Map Selector",
       "author": "AbstractMelon and Mathlover3",
       "img": "MapSelector.png",
-      "description": "Allows you to select your own maps! Only the host has to use the mod and the mod will only work if the host is using it. TO BECOME THE HOST, BE THE PLAYER EVERYONE JOINS! Website for map id’s here: https://abstractmelon.github.io/MapPicker/website/index.html
-
-If you do the same map twice the game can lag 
-",
+      "description": "Allows you to select your own maps! Only the host has to use the mod and the mod will only work if the host is using it. TO BECOME THE HOST, BE THE PLAYER EVERYONE JOINS! Website for map id’s here: https://abstractmelon.github.io/MapPicker/website/index.html If you do the same map twice the game can lag",
       "github": "https://github.com/AbstractMelon/BoplBattleMods/releases/tag/map-selector-v1.0.0"
     },
     {
@@ -63,7 +60,7 @@ If you do the same map twice the game can lag
       "name": "Arrow Circle",
       "author": "Breh",
       "img": "ArrowCircle.png",
-      "description": "It's a modified version of Wackymoder's "arrowWall" were the arrows get shot around you in a circle instead of a line",
+      "description": "It's a modified version of Wackymoder's \"arrowWall\" were the arrows get shot around you in a circle instead of a line",
       "github": "https://github.com/Breuhh/arrowCircle"
     },
     {

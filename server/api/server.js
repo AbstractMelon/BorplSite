@@ -14,6 +14,10 @@ app.use((req, res, next) => {
 // Serve static files
 app.use(express.static(path.join(__dirname, '../..//client')));
 
+// Middleware for handling file uploads
+const multer = require('multer');
+const upload = multer({ dest: 'uploads/' });
+
 // API endpoints
 app.get('/api/guns', (req, res) => {
     // Read guns data from guns.json
@@ -59,6 +63,26 @@ app.get('/api/mod/:modId', (req, res) => {
         }
         res.json(mod);
     });
+});
+
+// Endpoint for installing splotch.zip
+app.post('/api/loaders/splotch', upload.single('splotch'), (req, res) => {
+    console.log("Hi from splotch");
+    if (!req.file) {
+        return res.status(400).json({ error: 'No file uploaded' });
+    }
+    fs.renameSync(req.file.path, path.join(__dirname, '../data/loaders/Splotch.zip'));
+    res.status(200).json({ message: 'Splotch.zip installed successfully' });
+});
+
+// Endpoint for installing bepinex.zip
+app.post('/api/loaders/bepinex', upload.single('bepinex'), (req, res) => {
+    console.log("Hi from bepinex");
+    if (!req.file) {
+        return res.status(400).json({ error: 'No file uploaded' });
+    }
+    fs.renameSync(req.file.path, path.join(__dirname, '../data/loaders/BepInEx.zip'));
+    res.status(200).json({ message: 'Bepinex.zip installed successfully' });
 });
 
 // Wildcard route for Discord

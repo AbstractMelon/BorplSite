@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Your First Plugin</title>
+    <link rel="stylesheet" type="text/css" href="./wiki.css">
+    <style>
+        body {
+            height: 110%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Set-up Guide</h1>
+    </header>
+    <section>
+        <h2>Introduction</h2>
+        <p>Welcome to the tutorial on creating your first plugin! In this tutorial, we'll walk through the steps to create a simple plugin using BepInEx.</p>
+        
+        <br>
+
+        <h2>Requirements</h2>
+        <ul>
+            <li>IDE (Integrated Development Environment) - We recommend Visual Studio 2022.</li>
+            <li>.NET 6 or newer (not .NET 8).</li>
+            <li>Basic knowledge of command prompt.</li>
+        </ul>
+
+        <br>
+
+        <h2>Step 1: Installing IDE</h2>
+        <p>First, install an IDE such as Visual Studio 2022.</p>
+
+        <br>
+
+        <h2>Step 2: Downloading Dotnet</h2>
+        <p>Download and install .NET 6 or newer, avoiding .NET 8 as it won't work.</p>
+
+        <br>
+
+        <h2>Step 3: Setting up BepInEx</h2>
+        <p>Open your command prompt and run the following command:</p>
+        <pre><code>
+        dotnet new -i BepInEx.Templates --nuget-source https://nuget.bepinex.dev/v3/index.json
+        </code></pre>
+
+        <br>
+
+        <h2>Step 4: Creating Plugin</h2>
+        <p>Create a new plugin using the following command:</p>
+        <pre><code>
+            dotnet new bepinex5plugin -n MyFirstBoplPlugin -T net46 -U 2019.4.5
+        </code></pre>
+
+        <br>
+
+        <h2>Step 5: Modifying Plugin</h2>
+        <p>Open the generated files in your IDE and make necessary modifications as instructed.</p>
+
+        <br>
+
+        <h2>Step 6: Adding References</h2>
+        <p>Add references by right-clicking on the project, selecting "Add", then "Add Assembly Reference", and selecting the required files.</p>
+
+        <br>
+
+        <h2>Step 7: Building Plugin</h2>
+        <p>Build your plugin into a .dll file by going to "Build" -> "Build Solution".</p>
+
+        <br>
+
+        <h2>Step 8: Finalizing</h2>
+        <p>Locate the .dll file in the project folder (Bin\Debug\net46) and use it as your plugin.</p>
+
+        <br>
+        
+        <h2>Conclusion</h2>
+        <p>Congratulations! You've created your first plugin. Have fun exploring and customizing it further!</p>
+    </section>
+</body>
+</html>

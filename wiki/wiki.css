@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: url('../../images/background.png') center/cover fixed; /* Adjust the path to your background image */
+  background: url('../client/images/background.png') center/cover fixed; /* Adjust the path to your background image */
 }
 
 header {
@@ -11,14 +11,13 @@ header {
   background-color: rgba(0, 0, 0, 0.5);
   font-size: 32px;
   width: 60%;
-  margin: 0 auto; /* Add this line */
+  margin: 0 auto; 
   border-radius: 20px;
 }
 
-
 section {
   max-width: 800px;
-  margin: 2em auto;
+  margin: 4em auto;
   padding: 2em;
   background-color: rgba(0, 74, 85, 0.7); /* Light opaque white background */
   border-radius: 8px;
@@ -41,6 +40,7 @@ ul {
 
 ul li {
   margin-bottom: 0.5em;
+  color: #e5ff00;
 }
 
 a {
@@ -50,6 +50,10 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+br {
+  margin: 0;
 }
 
 footer {
@@ -62,6 +66,7 @@ footer {
   font-size: 12px;
   right: 0%;
 }
+
 .button-list {
   display: flex;
   justify-content: space-around;
@@ -103,4 +108,14 @@ footer {
 
 .tool-button:hover {
   background-color: #0066cc; /* Darker blue color on hover */
+}
+pre {
+  background-color: #1b1b1b56;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+code {
+  color: #ffffff;
 }

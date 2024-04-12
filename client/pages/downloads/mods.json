@@ -11,7 +11,7 @@
       "name": "Anti-Squish",
       "author": "zbuzzard",
       "img": "AntiSquish.png",
-      "description": "",
+      "description": "prevents player from being squished",
       "github": "https://github.com/zbuzzard/Bopl-Battle-Mods/releases/tag/anti-squish-1.1.0"
     },
     {
@@ -25,64 +25,64 @@
       "name": "Bigger Black Holes",
       "author": "AbstractMelon",
       "img": "BiggerBlackHoles.png",
-      "description": "",
+      "description": "Makes black hole have way too much power and instantly grow to max size and instakill everyone",
       "github": "https://github.com/AbstractMelon/BoplBattleMods/releases/tag/bigger-black-holes-v1.1.0"
     },
     {
       "name": "Map Selector",
       "author": "AbstractMelon and Mathlover3",
       "img": "MapSelector.png",
-      "description": "",
+      "description": "Allows you to select your own maps! Only the host has to use the mod and the mod will only work if the host is using it. TO BECOME THE HOST, BE THE PLAYER EVERYONE JOINS! Website for map id’s here: https://abstractmelon.github.io/MapPicker/website/index.html If you do the same map twice the game can lag",
       "github": "https://github.com/AbstractMelon/BoplBattleMods/releases/tag/map-selector-v1.0.0"
     },
     {
       "name": "No Clone Limit",
       "author": "MathLover3",
       "img": "NoCloneLimit.png",
-      "description": "",
+      "description": "Removes Limit to Clones",
       "github": "https://github.com/mathlover3/bopl-battle-mods/releases/tag/NoCloneLimit"
     },
     {
       "name": "Almighty Push",
       "author": "Really Bad Dev",
       "img": "Almighty_Push.png",
-      "description": "",
-      "github": ""
+      "description": "Makes gust more powerful.",
+      "github": "https://github.com/ReallyBadDeveloper/MyBoplBattleMods/releases/tag/almightypush1.0.0"
     },
     {
       "name": "Any Color",
       "author": "David",
       "img": "AnyColor.png",
-      "description": "",
-      "github": ""
+      "description": "Allows you to steal a color if you are the host. note it only works if you are host",
+      "github": "https://github.com/mathlover3/bopl-battle-mods/releases/tag/AnyColor"
     },
     {
       "name": "Arrow Circle",
       "author": "Breh",
       "img": "ArrowCircle.png",
-      "description": "",
-      "github": ""
+      "description": "It's a modified version of Wackymoder's \"arrowWall\" were the arrows get shot around you in a circle instead of a line",
+      "github": "https://github.com/Breuhh/arrowCircle"
     },
     {
       "name": "Guns Mod",
       "author": "ShAdowDev16",
       "img": "GunsMod.png",
-      "description": "",
+      "description": "Yes, I think you have all been waiting for this... GUNS Also you can create your own guns (documentation on GitHub)",
       "github": "https://github.com/ShAdowDev16/BoplGuns"
     },
     {
       "name": "Infinite Platform Size",
       "author": "Diggity",
       "img": "InfinitePlatformSize.png",
-      "description": "",
-      "github": ""
+      "description": "Infinite Platfromability Size, removes the limit of how big your platform can be.",
+      "github": "https://github.com/000Diggity000/Infinite-Platformability-Size/releases/"
     },
     {
       "name": "Instant Cooldowns",
-      "author": "AbstractMelon",
+      "author": "Mangochicken",
       "img": "InstantCooldowns.jpg",
-      "description": "",
-      "github": ""
+      "description": "Makes abilities have 1/3 of the cooldown they normally have. Fixed incompatiblities :)",
+      "github": "https://github.com/AbstractMelon/BoplBattleMods/releases/tag/slight-cooldowns-v1.1.0"
     },
     {
       "name": "Low Gravity",
@@ -95,22 +95,22 @@
       "name": "No Spike Disappear",
       "author": "R4aina",
       "img": "NoSpikeDisappear.png",
-      "description": "",
-      "github": ""
+      "description": "Previous spikes dont disappear after placing new one",
+      "github": "https://github.com/TheRa4ina/BoplNoSpikeDisappear"
     },
     {
       "name": "Same Color",
       "author": "David",
       "img": "SameColor.png",
-      "description": "",
-      "github": ""
+      "description": "if you are the host and have this mod then everyone will become the same color as you when the game starts. nice if someone is targeting someone or you just want people to get confused who they are",
+      "github": "https://github.com/mathlover3/bopl-battle-mods/releases/tag/SameColor"
     },
     {
       "name": "Spectator Mode",
       "author": "Diggity",
       "img": "SpectatorMode.png",
-      "description": "",
-      "github": ""
+      "description": "Press 1 on your keyboard to enter spectator mode!",
+      "github": "https://github.com/000Diggity000/SpectatorMode/releases/tag/bopl"
     },
     {
       "name": "Speedy Player",
@@ -123,8 +123,8 @@
       "name": "Time Stop Timer",
       "author": "Antimality",
       "img": "TimeStopTimer.png",
-      "description": "",
-      "github": ""
+      "description": "Shows a timer displaying how long it takes until the time freezes or unfreezes",
+      "github": "https://github.com/Antimality/MyBoplMods/releases/tag/TimeStopTimer-v1.0.0"
     }
   ]
 }

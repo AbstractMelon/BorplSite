@@ -119,3 +119,26 @@ pre {
 code {
   color: #ffffff;
 }
+
+/* Grid layout for buttons */
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+/* Style for buttons */
+.button-grid a {
+  display: block;
+  padding: 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.button-grid a:hover {
+  background-color: #0056b3;
+}

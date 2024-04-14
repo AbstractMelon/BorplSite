@@ -83,13 +83,13 @@ namespace InstantCooldowns
 
 
             MethodInfo original = AccessTools.Method(typeof(Ability), "Awake");
-            MethodInfo patch = AccessTools.Method(typeof(myPatches), "Awake_InstantCooldowns_Plug");
+            MethodInfo patch = AccessTools.Method(typeof(myPatches), "StartInstantCooldowns");
             harmony.Patch(original, new HarmonyMethod(patch));
         }
 
         public class myPatches
         {
-            public static void Awake_Modname_Plug(Ability __instance)
+            public static void StartInstantCooldowns(Ability __instance)
             {
                 __instance.Cooldown = (Fix)0;
             }

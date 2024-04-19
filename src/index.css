@@ -24,7 +24,9 @@ body {
   color: #fff;
   height: min-content;
   display:flex;
-  cursor: pointer;
+}
+.toolDescription{
+  font-size: 15px;
 }
 .toolName{
   flex: 1;
@@ -32,6 +34,8 @@ body {
 }
 .toolImg{
   max-width: 60px;
+  max-height: 60px;
+  align-self: center;
   margin: 10px;
 
 }

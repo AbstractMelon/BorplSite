@@ -1,5 +1,7 @@
 import React from 'react';
 
+document.head.title = 'Bopl - Home';
+
 function Home() {
     return (
         <div className='container'>

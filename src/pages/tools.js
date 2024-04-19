@@ -38,7 +38,7 @@ function Tools() {
                     <p className='toolDescription'>dnSpy is a debugger and .NET assembly editor. You can use it to edit and debug assemblies even if you don't have any source code available.</p>
                     </a>
                 <img className='toolImg' src='https://cdn-b.saashub.com/images/app/service_logos/53/3755c8e998c7/large.png?1559662840' alt='DnSpy logo'/>
-            </div>\
+            </div>
         </div>
     );
 }

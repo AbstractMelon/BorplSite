@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Welcome!",
+        "path": "main.md"
+    },
+    {
+        "name":"Installing mods",
+        "children": [
+            {
+                "name": "Installing mods",
+                "path": "installing/installing.md"
+            },
+            {
+                "name": "\"My mods don't work!\"",
+                "path": "installing/troubleshooting.md"
+            }
+        ]
+    },
+    {
+        "name": "Mod Creation",
+        "children": [
+            {
+                "name": "Getting Started",
+                "path": "setup/start.md"
+            },
+            {
+                "name": "Editing Abilities",
+                "path": "setup/abilities.md"
+            },
+            {
+                "name": "Adding Features",
+                "path": "setup/features.md"
+            },
+            {
+                "name": "Debugging",
+                "path": "setup/debugging.md"
+            },
+            {
+                "name": "Intergration",
+                "path": "setup/intergration.md"
+            },
+            {
+                "name": "Mod Loaders",
+                "path": "setup/loaders.md"
+            },
+            {
+                "name": "Publishing mods",
+                "path": "setup/publishing.md"
+            },
+            {
+                "name": "FAQ",
+                "path": "setup/faq.md"
+            }
+        ]
+    }
+]

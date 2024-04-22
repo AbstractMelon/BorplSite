@@ -1,0 +1,359 @@
+:root {
+  --main-accent-color: rgba(135, 206, 250, 0.3);
+  --secondary-accent-color: rgba(101, 184, 235, 0.781);
+  --highlighted-accent-color: rgba(79, 152, 197, 0.664);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('../public/images/background.png') center/cover fixed; /* Adjust the path to your background image */
+}
+.current{
+  background-color: black;
+
+}
+
+.tool{
+  background-color: var(--main-accent-color);
+  padding: 20px;
+  margin: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #fff;
+  height: min-content;
+  display:flex;
+}
+.toolDescription{
+  font-size: 15px;
+}
+.toolName{
+  flex: 1;
+  align-self: center;
+}
+.toolImg{
+  max-width: 60px;
+  max-height: 60px;
+  align-self: center;
+  margin: 10px;
+
+}
+
+.mdFile.active{
+  background-color: --primary-accent-color;
+
+}
+
+pre{
+  background-color: rgba(67, 145, 194, 0.781);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  color: white;
+  user-select: all;
+}
+
+code{
+  user-select: all;
+}
+
+.mdLabel{
+  width: max-content;
+}
+
+.mdFile{
+  background-color: rgba(79, 152, 197, 0.664);
+  padding: 5px;
+  margin: 8px;
+  border-radius: 5px;
+  border:none;
+  color:white;
+  cursor: pointer;
+  font-size: 18px;
+  display:block;
+  width: max-content;
+}
+.mdFolder{
+  margin:5px;
+  margin-left:10px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.wiki-container{
+  color: white;
+  display: flex;
+}
+
+.search{
+  display:flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  background-color: var(--main-accent-color);
+  padding:10px;
+  width:95%;
+  border-radius:10px;
+  border:none;
+  color: #fff;
+  margin: 0 auto;
+}
+::placeholder {
+  color: #fff;
+}
+
+.docs{
+  color:#fff;
+  flex: 2;
+}
+
+
+
+.wiki{
+  background-color: var(--main-accent-color);
+  padding: 10px;
+  margin:5px;
+  border-radius: 10px;
+}
+
+.sidebar{
+  flex: 1;
+  width:min-content;
+  max-width: max-content;
+}
+
+.wiki-container{
+  gap: 10px;
+}
+.uncoloured{
+  background-color: #ffffff00!important;
+}
+
+.btn{
+  background-color: rgba(135, 206, 250, 0.87);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  font-size:15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modInfo{
+  margin:5px;
+}
+
+.modName{
+  font-size:20px;
+  font-weight: bold;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+  gap: 10px;
+}
+.mod{
+  background-color: var(--main-accent-color);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  max-width: 110%;
+  position: relative;
+}
+.aboutPopup{
+  display:none;
+}
+.aboutPopup.active{
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+.popupText{
+  background-color: rgb(135, 206, 250);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  max-width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  transform: translate(-50%, -50%);
+  cursor:pointer;
+}
+.modImg{
+  cursor: pointer;
+  max-width: 100%;
+  border-radius: 10px;
+}
+.NavBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: var(--main-accent-color);
+
+}
+
+.active{
+  background-color: var(--main-accent-color);
+  color: #ffffff;
+}
+
+.tabs{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 5px;
+  padding-bottom: 0px;
+}
+.tab{
+  padding: 10px;
+  background-color: rgba(87, 161, 207, 0.781);
+  color: #ffffff;
+  margin-right: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+  font-size: 17px;
+  border: var(--secondary-accent-color) 2px solid;
+  border-bottom: 0px;
+}
+
+.tab-content{
+ border: var(--secondary-accent-color) 2px solid;
+ color: #ffffff;
+ background-color: var(--main-accent-color);
+ margin: 5px;
+ padding: 10px;
+ margin-top: 0px;
+ border-top-right-radius: 10px;
+ border-bottom-right-radius: 10px;
+ border-bottom-left-radius: 10px;
+}
+
+.active{
+  background-color: var(--main-accent-color);
+}
+
+.navAlign{
+  max-width: 900px;
+  align-self: center;
+}
+
+.logo{
+  vertical-align: middle;
+  margin: 10px;
+  max-width: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.navItem{
+  display: inline-block;
+  margin: 10px;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.container{
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1000px;
+  background-color: var(--main-accent-color);
+  margin-top: 20px;
+  border-radius: 20px;
+  margin-bottom: 5%;
+}
+
+h1, h2 {
+  color: #ffffff;
+}
+
+p {
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: #ffffff; /* Light blue link color */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: rgba(135, 206, 250, 0.685);
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 15%;
+  font-size: 12px;
+  width: 100%;
+}
+.button-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.button {
+  display: inline-block;
+  padding: 10px;
+  background-color: var(--main-accent-color); /* Light blue color */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.button:hover {
+  background-color: var(--highlighted-accent-color); /* Darker blue color on hover */
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+  gap: 10px;
+}
+
+.tool-button {
+  display: inline-block;
+  padding: 20px;
+  background-color: #87CEFA; /* Light blue color */
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 32px;
+  transition: background-color 0.3s ease;
+}
+
+.tool-button:hover {
+  background-color: #0066cc; /* Darker blue color on hover */
+}

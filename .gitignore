@@ -12,7 +12,7 @@ node_modules
 /coverage
 
 # production
-/build
+# /build remove da build dir
 
 # misc
 .DS_Store

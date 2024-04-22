@@ -2,6 +2,7 @@ import React from 'react';
 import './index.css';
 import Header from './elements/header';
 import Head from './elements/Head';
+import { Analytics } from "@vercel/analytics/react"
 import { Outlet, useLocation } from 'react-router-dom';
 
 function App() {

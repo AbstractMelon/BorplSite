@@ -9,6 +9,7 @@ const Header = () => {
     <div className='NavBar'>
         <div className='navAlign'>
             <img src="/images/borpl.png" className='logo' onClick={redirect} alt="Borpl Logo" />
+            <a href="/" className="navItem">Home</a>
             <a href="/downloads" className="navItem">Downloads</a>
             <a href="/wiki" className="navItem">Wiki</a>
             <a href="/tools" className="navItem">Development Tools</a>

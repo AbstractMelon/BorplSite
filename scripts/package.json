@@ -1,0 +1,12 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tslist.js",
+  "scripts": {
+    "list": "node tslist.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

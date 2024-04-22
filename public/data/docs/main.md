@@ -1,4 +1,7 @@
 # Welcome to the Borpl Wiki!
-This is a collection of guides and resources to help you do everything needed to mod bopl battle!
 
-Browse through the guides in the sidebar to find what you need
+Welcome to the Borpl Wiki, your go-to resource for all things related to modding Bopl Battle! Whether you're a seasoned modder or just getting started, you'll find a wealth of guides and resources here to help you enhance your Bopl Battle experience.
+
+Feel free to explore the various guides available in the sidebar to discover everything you need to know about modding Bopl Battle and creating your own unique gameplay experiences.
+
+Happy modding!

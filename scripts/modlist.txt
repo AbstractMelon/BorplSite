@@ -1,0 +1,7 @@
+"Invincibility", "1.0.0", "https://thunderstore.io/package/download/AbstractMelon/Invincibility/1.0.0/"
+"NauseaTitle", "1.0.0", "https://thunderstore.io/package/download/AbstractMelon/NauseaTitle/1.0.0/"
+"RIPViktor", "1.0.5", "https://thunderstore.io/package/download/ViktorLowSat/RIPViktor/1.0.5/"
+"BepInExPack_3Dash", "5.4.2100", "https://thunderstore.io/package/download/BepInEx/BepInExPack_3Dash/5.4.2100/"
+"3DashTools", "0.3.1", "https://thunderstore.io/package/download/ConfiG/3DashTools/0.3.1/"
+"6Dash", "0.4.1", "https://thunderstore.io/package/download/ConfiG/6Dash/0.4.1/"
+"3Dash_Custom_Music", "0.1.1", "https://thunderstore.io/package/download/ConfiG/3Dash_Custom_Music/0.1.1/"

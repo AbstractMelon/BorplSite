@@ -4,23 +4,15 @@
         "path": "main.md"
     },
     {
-        "name": "Mod Installation",
+        "name":"Installing mods",
         "children": [
             {
-                "name": "Installing Mods",
-                "path": "installation/installing.md"
+                "name": "Installing mods",
+                "path": "installing/installing.md"
             },
             {
-                "name": "Troubleshooting",
-                "path": "installation/troubleshooting.md"
-            },
-            {
-                "name": "Mod Loaders",
-                "path": "installation/loaders.md"
-            },
-            {
-                "name": "Patch Management",
-                "path": "installation/patching.md"
+                "name": "\"My mods don't work!\"",
+                "path": "installing/troubleshooting.md"
             }
         ]
     },
@@ -29,102 +21,36 @@
         "children": [
             {
                 "name": "Getting Started",
-                "path": "creation/start.md"
+                "path": "setup/start.md"
             },
             {
                 "name": "Editing Abilities",
-                "path": "creation/abilities.md"
+                "path": "setup/abilities.md"
             },
             {
                 "name": "Adding Features",
-                "path": "creation/features.md"
+                "path": "setup/features.md"
             },
             {
                 "name": "Debugging",
-                "path": "creation/debugging.md"
+                "path": "setup/debugging.md"
             },
             {
-                "name": "Integration",
-                "path": "creation/integration.md"
+                "name": "Intergration",
+                "path": "setup/intergration.md"
             },
             {
-                "name": "Testing",
-                "path": "creation/testing.md"
+                "name": "Mod Loaders",
+                "path": "setup/loaders.md"
             },
             {
-                "name": "Publishing Mods",
-                "path": "creation/publishing.md"
+                "name": "Publishing mods",
+                "path": "setup/publishing.md"
             },
             {
-                "name": "Mod Assets",
-                "path": "creation/assets.md"
-            },
-            {
-                "name": "Version Control",
-                "path": "creation/version_control.md"
-            },
-            {
-                "name": "Documentation",
-                "path": "creation/documentation.md"
-            },
-            {
-                "name": "Community Engagement",
-                "path": "creation/community.md"
+                "name": "FAQ",
+                "path": "setup/faq.md"
             }
         ]
-    },
-    {
-        "name": "Advanced Modding",
-        "children": [
-            {
-                "name": "Performance Optimization",
-                "path": "advanced/performance.md"
-            },
-            {
-                "name": "Security Practices",
-                "path": "advanced/security.md"
-            },
-            {
-                "name": "Compatibility",
-                "path": "advanced/compatibility.md"
-            },
-            {
-                "name": "API Integration",
-                "path": "advanced/api_integration.md"
-            },
-            {
-                "name": "Data Management",
-                "path": "advanced/data_management.md"
-            },
-            {
-                "name": "Localization",
-                "path": "advanced/localization.md"
-            }
-        ]
-    },
-    {
-        "name": "Community Resources",
-        "children": [
-            {
-                "name": "Forums and Communities",
-                "path": "resources/forums.md"
-            },
-            {
-                "name": "Tutorials and Guides",
-                "path": "resources/tutorials.md"
-            },
-            {
-                "name": "Tools and Utilities",
-                "path": "resources/tools.md"
-            },
-            {
-                "name": "Modding Conventions",
-                "path": "resources/conventions.md"
-            }
-        ]
-    },
-    {
-        "name": "FAQs",
-        "path": "faqs.md"
     }
 ]

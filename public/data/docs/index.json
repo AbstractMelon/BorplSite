@@ -12,19 +12,19 @@
         "children": [
             {
                 "name": "Installing Mods",
-                "path": "installation/installing.md"
+                "path": "installing/installing.md"
             },
             {
                 "name": "Troubleshooting",
-                "path": "installation/troubleshooting.md"
+                "path": "installing/troubleshooting.md"
             },
             {
                 "name": "Mod Loaders",
-                "path": "installation/loaders.md"
+                "path": "installing/loaders.md"
             },
             {
                 "name": "Patch Management",
-                "path": "installation/patching.md"
+                "path": "installing/patching.md"
             }
         ]
     },
@@ -49,7 +49,7 @@
             },
             {
                 "name": "Integration",
-                "path": "creation/integration.md"
+                "path": "creation/intergration.md"
             },
             {
                 "name": "Testing",

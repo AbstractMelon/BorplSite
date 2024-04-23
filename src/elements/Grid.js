@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 
-const ModsList = () => {
+const Grid = ({ source }) => {
     const [mods, setMods] = useState([]);
     const [searchTerm, setSearchTerm] = useState('');
 
     useEffect(() => {
         const fetchMods = async () => {
-            let jsonData = await fetch(process.env.PUBLIC_URL + '/data/mods.json');
+            let jsonData = await fetch(process.env.PUBLIC_URL + '/data/' + source);
             jsonData = await jsonData.json();
             console.log(jsonData);
             setMods(jsonData.mods);
@@ -48,4 +48,4 @@ const ModsList = () => {
     );
 }
 
-export default ModsList;
+export default Grid;

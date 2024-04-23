@@ -42,7 +42,7 @@ function Wiki() {
         if (match) {
             setSelectedFile(decodeURIComponent(match[1]));
         } else {
-            setSelectedFile('main.md');
+            setSelectedFile('welcome.md');
         }
     }, []);
 

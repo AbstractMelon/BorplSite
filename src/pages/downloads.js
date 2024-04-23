@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import ModsList from '../elements/ModsList';
+import Grid from '../elements/Grid';
 
 function Downloads() {
     const [activeTab, setActiveTab] = useState(1);
@@ -18,10 +18,10 @@ function Downloads() {
                 <button className={`tab ${activeTab === 4 ? 'active' : ''}`} onClick={() => handleTabClick(4)}>Texture Packs</button>
             </div>
             <div className="tab-content">
-                {activeTab === 1 && <div className="tab-pane"><ModsList/></div>}
-                {activeTab === 2 && <div className="tab-pane">Maps</div>}
-                {activeTab === 3 && <div className="tab-pane">Guns</div>}
-                {activeTab === 4 && <div className="tab-pane">Texture Packs</div>}
+                {activeTab === 1 && <div className="tab-pane"><Grid source='mods.json'/></div>}
+                {activeTab === 2 && <div className="tab-pane"><Grid source='maps.json'/></div>}
+                {activeTab === 3 && <div className="tab-pane"><Grid source='guns.json'/></div>}
+                {activeTab === 4 && <div className="tab-pane"><Grid source='textures.json'/></div>}
             </div>
         </>
     );

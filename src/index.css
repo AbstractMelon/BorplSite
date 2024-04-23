@@ -8,8 +8,9 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: url('../public/images/background.png') center/cover fixed; /* Adjust the path to your background image */
+  background: url('../public/images/background.png') center/cover fixed;
 }
+
 .current{
   background-color: black;
 
@@ -317,13 +318,13 @@ footer {
 .button-list {
   display: flex;
   justify-content: space-around;
-  margin-top: 20px; /* Adjust as needed */
+  margin-top: 20px; 
 }
 
 .button {
   display: inline-block;
   padding: 10px;
-  background-color: var(--main-accent-color); /* Light blue color */
+  background-color: var(--main-accent-color); 
   color: #fff;
   text-decoration: none;
   border-radius: 8px;
@@ -333,7 +334,7 @@ footer {
 }
 
 .button:hover {
-  background-color: var(--highlighted-accent-color); /* Darker blue color on hover */
+  background-color: var(--highlighted-accent-color); 
 }
 
 .button-grid {
@@ -345,7 +346,7 @@ footer {
 .tool-button {
   display: inline-block;
   padding: 20px;
-  background-color: #87CEFA; /* Light blue color */
+  background-color: #87CEFA; 
   color: #fff;
   text-decoration: none;
   text-align: center;
@@ -355,5 +356,5 @@ footer {
 }
 
 .tool-button:hover {
-  background-color: #0066cc; /* Darker blue color on hover */
+  background-color: #0066cc; 
 }

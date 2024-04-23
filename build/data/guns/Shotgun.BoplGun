@@ -1,0 +1,8 @@
+Name = Shotgun;
+ImagePath = Assets/Shotgun/BoplShotgun;
+BulletPath = Assets/Shotgun/BoplBullet;
+BulletSize = 0.1;
+Spread = true;
+RotateFix = 160;
+BulletRotateFix = -20;
+EquipKey = Digit2;

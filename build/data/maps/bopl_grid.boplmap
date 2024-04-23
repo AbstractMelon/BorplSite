@@ -1,0 +1,2217 @@
+{
+  "version": "1.0",
+  "mapName": "Boplmap",
+  "description": "A Bopl Map",
+  "developer": "Abstractmelon",
+  "dateCreated": "2024-03-27",
+  "mapId": "1",
+  "siteVersion": "0.3",
+  "icon": "https://raw.githubusercontent/abstractmelon/boplmapmaker/main/images/icon.jpeg",
+  "platforms": [
+    {
+      "transform": {
+        "x": -10.0,
+        "y": 0.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -20.0,
+        "y": 0.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -30.0,
+        "y": 0.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -40.0,
+        "y": 0.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -50.0,
+        "y": 0.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -60.0,
+        "y": 0.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -70.0,
+        "y": 0.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -80.0,
+        "y": 0.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -90.0,
+        "y": 0.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -100.0,
+        "y": 0.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 10.0,
+        "y": 0.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 20.0,
+        "y": 0.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 30.0,
+        "y": 0.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 40.0,
+        "y": 0.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 50.0,
+        "y": 0.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 60.0,
+        "y": 0.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 70.0,
+        "y": 0.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 80.0,
+        "y": 0.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 90.0,
+        "y": 0.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 100.0,
+        "y": 0.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -10.0,
+        "y": -10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -20.0,
+        "y": -10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -30.0,
+        "y": -10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -40.0,
+        "y": -10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -50.0,
+        "y": -10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -60.0,
+        "y": -10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -70.0,
+        "y": -10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -80.0,
+        "y": -10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -90.0,
+        "y": -10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -100.0,
+        "y": -10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 0.0,
+        "y": -10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 10.0,
+        "y": -10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 20.0,
+        "y": -10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 30.0,
+        "y": -10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 40.0,
+        "y": -10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 50.0,
+        "y": -10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 60.0,
+        "y": -10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 70.0,
+        "y": -10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 80.0,
+        "y": -10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 90.0,
+        "y": -10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 100.0,
+        "y": -10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -10.0,
+        "y": 10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -20.0,
+        "y": 10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -30.0,
+        "y": 10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -40.0,
+        "y": 10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -50.0,
+        "y": 10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -60.0,
+        "y": 10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -70.0,
+        "y": 10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -80.0,
+        "y": 10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -90.0,
+        "y": 10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -100.0,
+        "y": 10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 0.0,
+        "y": 10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 10.0,
+        "y": 10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 20.0,
+        "y": 10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 30.0,
+        "y": 10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 40.0,
+        "y": 10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 50.0,
+        "y": 10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 60.0,
+        "y": 10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 70.0,
+        "y": 10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 80.0,
+        "y": 10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 90.0,
+        "y": 10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 100.0,
+        "y": 10.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -10.0,
+        "y": 20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -20.0,
+        "y": 20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -30.0,
+        "y": 20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -40.0,
+        "y": 20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -50.0,
+        "y": 20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -60.0,
+        "y": 20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -70.0,
+        "y": 20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -80.0,
+        "y": 20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -90.0,
+        "y": 20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -100.0,
+        "y": 20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 0.0,
+        "y": 20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 10.0,
+        "y": 20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 20.0,
+        "y": 20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 30.0,
+        "y": 20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 40.0,
+        "y": 20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 50.0,
+        "y": 20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 60.0,
+        "y": 20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 70.0,
+        "y": 20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 80.0,
+        "y": 20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 90.0,
+        "y": 20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 100.0,
+        "y": 20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -10.0,
+        "y": 30.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -20.0,
+        "y": 30.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -30.0,
+        "y": 30.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -40.0,
+        "y": 30.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -50.0,
+        "y": 30.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -60.0,
+        "y": 30.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -70.0,
+        "y": 30.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -80.0,
+        "y": 30.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -90.0,
+        "y": 30.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -100.0,
+        "y": 30.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 0.0,
+        "y": 30.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 10.0,
+        "y": 30.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 20.0,
+        "y": 30.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 30.0,
+        "y": 30.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 40.0,
+        "y": 30.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 50.0,
+        "y": 30.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 60.0,
+        "y": 30.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 70.0,
+        "y": 30.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 80.0,
+        "y": 30.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 90.0,
+        "y": 30.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 100.0,
+        "y": 30.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -10.0,
+        "y": 40.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -20.0,
+        "y": 40.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -30.0,
+        "y": 40.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -40.0,
+        "y": 40.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -50.0,
+        "y": 40.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -60.0,
+        "y": 40.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -70.0,
+        "y": 40.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -80.0,
+        "y": 40.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -90.0,
+        "y": 40.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -100.0,
+        "y": 40.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 0.0,
+        "y": 40.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 10.0,
+        "y": 40.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 20.0,
+        "y": 40.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 30.0,
+        "y": 40.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 40.0,
+        "y": 40.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 50.0,
+        "y": 40.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 60.0,
+        "y": 40.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 70.0,
+        "y": 40.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 80.0,
+        "y": 40.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 90.0,
+        "y": 40.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 100.0,
+        "y": 40.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -10.0,
+        "y": -20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -20.0,
+        "y": -20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -30.0,
+        "y": -20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -40.0,
+        "y": -20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -50.0,
+        "y": -20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -60.0,
+        "y": -20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -70.0,
+        "y": -20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -80.0,
+        "y": -20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -90.0,
+        "y": -20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": -100.0,
+        "y": -20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 0.0,
+        "y": -20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 10.0,
+        "y": -20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 20.0,
+        "y": -20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 30.0,
+        "y": -20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 40.0,
+        "y": -20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 50.0,
+        "y": -20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 60.0,
+        "y": -20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 70.0,
+        "y": -20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 80.0,
+        "y": -20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 90.0,
+        "y": -20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    },
+    {
+      "transform": {
+        "x": 100.0,
+        "y": -20.0
+      },
+      "size": {
+        "width": 0.01,
+        "height": 0.01
+      },
+      "radius": 4.0,
+      "biome": "Plain",
+      "visibility": true,
+      "AntiLockPlatform": false,
+      "blank": false
+    }
+  ]
+}

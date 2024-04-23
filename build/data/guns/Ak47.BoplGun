@@ -1,0 +1,8 @@
+Name = AK47;
+ImagePath = Assets/Ak47/Ak47;
+BulletPath = Assets/Ak47/BoplBullet;
+BulletSize = 0.1;
+Spread = false;
+RotateFix = 170;
+BulletRotateFix = -10;
+EquipKey = Digit1;

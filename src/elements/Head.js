@@ -6,7 +6,11 @@ const Head = () => {
 
     useEffect(() => {
         const currentPath = location.pathname.split('/')[1]; // Get the current path
-        document.title = `Borpl - ${currentPath.charAt(0).toUpperCase() + currentPath.slice(1)}`; // Update the document title
+        if (currentPath === '') {
+            document.title = 'Borpl - Home'; // Update the document title for home page
+        } else {
+            document.title = `Borpl - ${currentPath.charAt(0).toUpperCase() + currentPath.slice(1)}`; // Update the document title for other pages
+        }
     }, [location]);
     return (
         <div>

@@ -9,7 +9,8 @@ import Tools from './pages/tools';
 import Downloads from './pages/downloads';
 import Wiki from './pages/wiki';
 import Home from './pages/home';
-import notFound from './pages/404';
+import Sample from './pages/sample';
+import NotFound from './pages/404';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,7 +23,8 @@ root.render(
       <Route path="tools" element={<Tools />} />
       <Route path="wiki" element={<Wiki />} />
       <Route path="downloads" element={<Downloads />} />
-      <Route path="*" element={<notFound />} />
+      <Route path="sample" element={<Sample />} />
+      <Route path="*" element={<NotFound />} />
     </Route>
   </Routes>
 </BrowserRouter>

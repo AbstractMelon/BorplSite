@@ -1,0 +1,22 @@
+name: Run JS file
+on:
+  schedule:
+    - cron: '0 */3 * * *' # This will run the job every 3 hours
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14' # Use the version of Node.js that you're using in your project
+
+      - name: Install dependencies
+        run: npm ci # or use 'npm install' if you don't have a lockfile
+
+      - name: Run JS file
+        run: node path/to/your/file.js # Replace with the path to your JS file

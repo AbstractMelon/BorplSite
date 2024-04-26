@@ -1,137 +1,348 @@
 {
-    "mods": [
-      {
-        "name": "Ability Storm",
-        "author": "unluckycrafter",
-        "img": "AbilityStorm.png",
-        "description": "Ability Storm is a mod made by Unluckycrafter that spawns ability orbs at random positions. It also randomly picks which slot to put the ability orb into.",
-        "github": "https://github.com/minidogg/myboplmods/releases/tag/abilityStorm1.4"
-      },
-      {
-        "name": "Anti-Squish",
-        "author": "zbuzzard",
-        "img": "AntiSquish.png",
-        "description": "",
-        "github": "https://github.com/zbuzzard/Bopl-Battle-Mods/releases/tag/anti-squish-1.1.0"
-      },
-      {
-        "name": "Arrow Wall",
-        "author": "WackyModer",
-        "img": "ArrowWallIcon.jpg",
-        "description": "",
-        "github": "https://github.com/WackyModer/Bopl_Mods/releases/tag/ArrowWall"
-      },
-      {
-        "name": "Bigger Black Holes",
-        "author": "AbstractMelon",
-        "img": "BiggerBlackHoles.png",
-        "description": "",
-        "github": "https://github.com/AbstractMelon/BoplBattleMods/releases/tag/bigger-black-holes-v1.1.0"
-      },
-      {
-        "name": "Bopl Guns",
-        "author": "ShAdowDev16",
-        "img": "GunsMod.png",
-        "description": "",
-        "github": "https://github.com/ShAdowDev16/BoplGuns"
-      },
-      {
-        "name": "Map Selector",
-        "author": "AbstractMelon and Mathlover3",
-        "img": "MapSelector.png",
-        "description": "",
-        "github": "https://github.com/AbstractMelon/BoplBattleMods/releases/tag/map-selector-v1.0.0"
-      },
-      {
-        "name": "No Clone Limit",
-        "author": "MathLover3",
-        "img": "NoCloneLimit.png",
-        "description": "",
-        "github": "https://github.com/mathlover3/bopl-battle-mods/releases/tag/NoCloneLimit"
-      },
-      {
-        "name": "Almighty Push",
-        "author": "Really Bad Dev",
-        "img": "Almighty_Push.png",
-        "description": "",
-        "github": ""
-      },
-      {
-        "name": "Any Color",
-        "author": "David",
-        "img": "AnyColor.png",
-        "description": "",
-        "github": ""
-      },
-      {
-        "name": "Arrow Circle",
-        "author": "Breh",
-        "img": "ArrowCircle.png",
-        "description": "",
-        "github": ""
-      },
-      {
-        "name": "Guns Mod",
-        "author": "ShAdowDev16",
-        "img": "GunsMod.png",
-        "description": "",
-        "github": ""
-      },
-      {
-        "name": "Infinite Platform Size",
-        "author": "Diggity",
-        "img": "InfinitePlatformSize.png",
-        "description": "",
-        "github": ""
-      },
-      {
-        "name": "Instant Cooldowns",
-        "author": "AbstractMelon",
-        "img": "InstantCooldowns.jpg",
-        "description": "",
-        "github": ""
-      },
-      {
-        "name": "Low Gravity",
-        "author": "Master Oogway",
-        "img": "LowGravity.png",
-        "description": "",
-        "github": ""
-      },
-      {
-        "name": "No Spike Disappear",
-        "author": "R4aina",
-        "img": "NoSpikeDisappear.png",
-        "description": "",
-        "github": ""
-      },
-      {
-        "name": "Same Color",
-        "author": "David",
-        "img": "SameColor.png",
-        "description": "",
-        "github": ""
-      },
-      {
-        "name": "Spectator Mode",
-        "author": "Diggity",
-        "img": "SpectatorMode.png",
-        "description": "",
-        "github": ""
-      },
-      {
-        "name": "Speedy Player",
-        "author": "Master Oogway",
-        "img": "SpeedyPlayer.png",
-        "description": "",
-        "github": ""
-      },
-      {
-        "name": "Time Stop Timer",
-        "author": "Antimality",
-        "img": "TimeStopTimer.png",
-        "description": "",
-        "github": ""
-      }
-    ]
-  }
+  "mods": [
+    {
+      "name": "Ability Storm",
+      "author": "unluckycrafter",
+      "img": "../../images/modicons/AbilityStorm.png",
+      "description": "Ability Storm is a mod made by Unluckycrafter that spawns ability orbs at random positions. It also randomly picks which slot to put the ability orb into.",
+      "github": "https://github.com/minidogg/myboplmods/releases/tag/abilityStorm1.4",
+      "key": 1
+    },
+    {
+      "name": "Anti-Squish",
+      "author": "zbuzzard",
+      "img": "../../images/modicons/AntiSquish.png",
+      "description": "",
+      "github": "https://github.com/zbuzzard/Bopl-Battle-Mods/releases/tag/anti-squish-1.1.0",
+      "key": 2
+    },
+    {
+      "name": "Arrow Wall",
+      "author": "WackyModer",
+      "img": "../../images/modicons/ArrowWallIcon.jpg",
+      "description": "",
+      "github": "https://github.com/WackyModer/Bopl_Mods/releases/tag/ArrowWall",
+      "key": 3
+    },
+    {
+      "name": "Bigger Black Holes",
+      "author": "AbstractMelon",
+      "img": "../../images/modicons/BiggerBlackHoles.png",
+      "description": "",
+      "github": "https://github.com/AbstractMelon/BoplBattleMods/releases/tag/bigger-black-holes-v1.1.0",
+      "key": 4
+    },
+    {
+      "name": "Bopl Guns",
+      "author": "ShAdowDev16",
+      "img": "../../images/modicons/GunsMod.png",
+      "description": "",
+      "github": "https://github.com/ShAdowDev16/BoplGuns",
+      "key": 5
+    },
+    {
+      "name": "Map Selector",
+      "author": "AbstractMelon and Mathlover3",
+      "img": "../../images/modicons/MapSelector.png",
+      "description": "",
+      "github": "https://github.com/AbstractMelon/BoplBattleMods/releases/tag/map-selector-v1.0.0",
+      "key": 6
+    },
+    {
+      "name": "No Clone Limit",
+      "author": "MathLover3",
+      "img": "../../images/modicons/NoCloneLimit.png",
+      "description": "",
+      "github": "https://github.com/mathlover3/bopl-battle-mods/releases/tag/NoCloneLimit",
+      "key": 7
+    },
+    {
+      "name": "Almighty Push",
+      "author": "Really Bad Dev",
+      "img": "../../images/modicons/Almighty_Push.png",
+      "description": "",
+      "github": "",
+      "key": 8
+    },
+    {
+      "name": "Any Color",
+      "author": "David",
+      "img": "../../images/modicons/AnyColor.png",
+      "description": "",
+      "github": "",
+      "key": 9
+    },
+    {
+      "name": "Arrow Circle",
+      "author": "Breh",
+      "img": "../../images/modicons/ArrowCircle.png",
+      "description": "",
+      "github": "",
+      "key": 10
+    },
+    {
+      "name": "Guns Mod",
+      "author": "ShAdowDev16",
+      "img": "../../images/modicons/GunsMod.png",
+      "description": "",
+      "github": "",
+      "key": 11
+    },
+    {
+      "name": "Infinite Platform Size",
+      "author": "Diggity",
+      "img": "../../images/modicons/InfinitePlatformSize.png",
+      "description": "",
+      "github": "",
+      "key": 12
+    },
+    {
+      "name": "Instant Cooldowns",
+      "author": "AbstractMelon",
+      "img": "../../images/modicons/InstantCooldowns.jpg",
+      "description": "",
+      "github": "",
+      "key": 13
+    },
+    {
+      "name": "Low Gravity",
+      "author": "Master Oogway",
+      "img": "../../images/modicons/LowGravity.png",
+      "description": "",
+      "github": "",
+      "key": 14
+    },
+    {
+      "name": "No Spike Disappear",
+      "author": "R4aina",
+      "img": "../../images/modicons/NoSpikeDisappear.png",
+      "description": "",
+      "github": "",
+      "key": 15
+    },
+    {
+      "name": "Same Color",
+      "author": "David",
+      "img": "../../images/modicons/SameColor.png",
+      "description": "",
+      "github": "",
+      "key": 16
+    },
+    {
+      "name": "Spectator Mode",
+      "author": "Diggity",
+      "img": "../../images/modicons/SpectatorMode.png",
+      "description": "",
+      "github": "",
+      "key": 17
+    },
+    {
+      "name": "Speedy Player",
+      "author": "Master Oogway",
+      "img": "../../images/modicons/SpeedyPlayer.png",
+      "description": "",
+      "github": "",
+      "key": 18
+    },
+    {
+      "name": "Time Stop Timer",
+      "author": "Antimality",
+      "img": "../../images/modicons/TimeStopTimer.png",
+      "description": "",
+      "github": "",
+      "key": 19
+    },
+    {
+      "key": 20,
+      "name": "BepInExPack",
+      "author": "BepInEx",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/BepInEx-BepInExPack-5.4.2100.png.256x256_q95_crop.png",
+      "description": "BepInEx pack for Mono Unity games. Preconfigured and ready to use.",
+      "github": "https://thunderstore.io/c/bopl-battle/p/BepInEx/BepInExPack/"
+    },
+    {
+      "key": 21,
+      "name": "NoAbilitySpawn",
+      "author": "000Diggity000",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/000Diggity000-NoAbilitySpawn-1.0.0.png.256x256_q95_crop.png",
+      "description": "Disables the spawning of abilities.                                                                                    Misc",
+      "github": "https://thunderstore.io/c/bopl-battle/p/000Diggity000/NoAbilitySpawn/"
+    },
+    {
+      "key": 22,
+      "name": "DeadlyDash",
+      "author": "000Diggity000",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/000Diggity000-DeadlyDash-1.0.0.png.256x256_q95_crop.png",
+      "description": "The Dash can kill people.                                                                                    Misc",
+      "github": "https://thunderstore.io/c/bopl-battle/p/000Diggity000/DeadlyDash/"
+    },
+    {
+      "key": 23,
+      "name": "StaticCamera",
+      "author": "PizzaMan730",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/PizzaMan730-StaticCamera-1.0.0.png.256x256_q95_crop.png",
+      "description": "Makes the camera stay still and not move with others",
+      "github": "https://thunderstore.io/c/bopl-battle/p/PizzaMan730/StaticCamera/"
+    },
+    {
+      "key": 24,
+      "name": "RainbowPlayer",
+      "author": "Antimality",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/Antimality-RainbowPlayer-1.0.1.png.256x256_q95_crop.png",
+      "description": "Give everyone wacky, eye-straining, changing colors!",
+      "github": "https://thunderstore.io/c/bopl-battle/p/Antimality/RainbowPlayer/"
+    },
+    {
+      "key": 25,
+      "name": "ScaleControl",
+      "author": "Antimality",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/Antimality-ScaleControl-1.0.1.png.256x256_q95_crop.png",
+      "description": "Ever wanted to fight like Ant-man? Now you can! Shrink to dodge, and then grow to shoot massive projectiles!",
+      "github": "https://thunderstore.io/c/bopl-battle/p/Antimality/ScaleControl/"
+    },
+    {
+      "key": 26,
+      "name": "Death Star",
+      "author": "Codemob",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/Codemob-Death_Star-1.0.0.png.256x256_q95_crop.png",
+      "description": "Makes the beam a giant laser cannon that you can fly around with",
+      "github": "https://thunderstore.io/c/bopl-battle/p/Codemob/Death_Star/"
+    },
+    {
+      "key": 27,
+      "name": "TimeStopEnhanced",
+      "author": "Antimality",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/Antimality-TimeStopEnhanced-1.0.1.png.256x256_q95_crop.png",
+      "description": "Adds configurations for the Time Stop ability",
+      "github": "https://thunderstore.io/c/bopl-battle/p/Antimality/TimeStopEnhanced/"
+    },
+    {
+      "key": 28,
+      "name": "Map Randomiser",
+      "author": "DavidLovesJellyCarWorlds",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/DavidLovesJellyCarWorlds-Map_Randomiser-1.0.1.png.256x256_q95_crop.png",
+      "description": "makes maps random!",
+      "github": "https://thunderstore.io/c/bopl-battle/p/DavidLovesJellyCarWorlds/Map_Randomiser/"
+    },
+    {
+      "key": 29,
+      "name": "Instant Beam",
+      "author": "DavidLovesJellyCarWorlds",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/DavidLovesJellyCarWorlds-Instant_Beam-1.0.0.png.256x256_q95_crop.png",
+      "description": "makes beam charge instantly",
+      "github": "https://thunderstore.io/c/bopl-battle/p/DavidLovesJellyCarWorlds/Instant_Beam/"
+    },
+    {
+      "key": 30,
+      "name": "RageQuitButton",
+      "author": "AbstractMelon",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/AbstractMelon-RageQuitButton-1.0.0.png.256x256_q95_crop.png",
+      "description": "Every time you die, it pulls up a button where you have the \"option \" to rage quit.",
+      "github": "https://thunderstore.io/c/bopl-battle/p/AbstractMelon/RageQuitButton/"
+    },
+    {
+      "key": 31,
+      "name": "CustomReplayAmount",
+      "author": "AbstractMelon",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/AbstractMelon-CustomReplayAmount-1.0.0.png.256x256_q95_crop.png",
+      "description": "You can change how many replays are saved",
+      "github": "https://thunderstore.io/c/bopl-battle/p/AbstractMelon/CustomReplayAmount/"
+    },
+    {
+      "key": 32,
+      "name": "Song Names",
+      "author": "Codemob",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/Codemob-Song_Names-1.0.0.png.256x256_q95_crop.png",
+      "description": "It turns out that hidden away in the games code, all of Bopl Battle's songs have names! For example the main menu music is called \"Friendship\" in the code.SongNames shows the currently playing song at the top of the screen.",
+      "github": "https://thunderstore.io/c/bopl-battle/p/Codemob/Song_Names/"
+    },
+    {
+      "key": 33,
+      "name": "SameColor",
+      "author": "DavidLovesJellyCarWorlds",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/DavidLovesJellyCarWorlds-SameColor-1.0.1.png.256x256_q95_crop.png",
+      "description": "if you are the host and have this mod then everyone will become the same color as you when the game starts",
+      "github": "https://thunderstore.io/c/bopl-battle/p/DavidLovesJellyCarWorlds/SameColor/"
+    },
+    {
+      "key": 34,
+      "name": "ColorStealer",
+      "author": "DavidLovesJellyCarWorlds",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/DavidLovesJellyCarWorlds-ColorStealer-1.0.1.png.256x256_q95_crop.png",
+      "description": "allows you to steal a color if you are the host. note that it only works if you are the host",
+      "github": "https://thunderstore.io/c/bopl-battle/p/DavidLovesJellyCarWorlds/ColorStealer/"
+    },
+    {
+      "key": 35,
+      "name": "NoCloneLimit",
+      "author": "DavidLovesJellyCarWorlds",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/DavidLovesJellyCarWorlds-NoCloneLimit-1.1.1.png.256x256_q95_crop.png",
+      "description": "removes the clone limit.",
+      "github": "https://thunderstore.io/c/bopl-battle/p/DavidLovesJellyCarWorlds/NoCloneLimit/"
+    },
+    {
+      "key": 36,
+      "name": "MapSelector",
+      "author": "MapMakerTeam",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/MapMakerTeam-MapSelector-1.0.0.png.256x256_q95_crop.png",
+      "description": "Lets you select your map! Must be host.",
+      "github": "https://thunderstore.io/c/bopl-battle/p/MapMakerTeam/MapSelector/"
+    },
+    {
+      "key": 37,
+      "name": "BiggerBlackHoles",
+      "author": "AbstractMelon",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/AbstractMelon-BiggerBlackHoles-1.1.0.png.256x256_q95_crop.png",
+      "description": "Makes black holes grow and start out way too fast.",
+      "github": "https://thunderstore.io/c/bopl-battle/p/AbstractMelon/BiggerBlackHoles/"
+    },
+    {
+      "key": 38,
+      "name": "ZeroAbilityCooldowns",
+      "author": "Mangochicken",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/Mangochicken-ZeroAbilityCooldowns-1.3.2.png.256x256_q95_crop.jpg",
+      "description": "Removes the cooldowns from abilities, what more could you want. Also it disables achievements because cheating is cringe",
+      "github": "https://thunderstore.io/c/bopl-battle/p/Mangochicken/ZeroAbilityCooldowns/"
+    },
+    {
+      "key": 39,
+      "name": "DefaultSize",
+      "author": "Antimality",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/Antimality-DefaultSize-1.0.0.png.256x256_q95_crop.png",
+      "description": "Change the size all blobs start from each round!",
+      "github": "https://thunderstore.io/c/bopl-battle/p/Antimality/DefaultSize/"
+    },
+    {
+      "key": 40,
+      "name": "InfiniteBlackHoles",
+      "author": "Antimality",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/Antimality-InfiniteBlackHoles-1.0.0.png.256x256_q95_crop.png",
+      "description": "Make as many black holes as you wish from a single ability!",
+      "github": "https://thunderstore.io/c/bopl-battle/p/Antimality/InfiniteBlackHoles/"
+    },
+    {
+      "key": 41,
+      "name": "InfiniteReviveUses",
+      "author": "Antimality",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/Antimality-InfiniteReviveUses-1.0.0.png.256x256_q95_crop.png",
+      "description": "No longer do you need multiple revive abilities to duplicate! Have infinitely many revives from just one ability!",
+      "github": "https://thunderstore.io/c/bopl-battle/p/Antimality/InfiniteReviveUses/"
+    },
+    {
+      "key": 42,
+      "name": "InstantGust",
+      "author": "Antimality",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/Antimality-InstantGust-1.0.0.png.256x256_q95_crop.png",
+      "description": "Cast gust with lightning speed for the ultimate clutch!",
+      "github": "https://thunderstore.io/c/bopl-battle/p/Antimality/InstantGust/"
+    },
+    {
+      "key": 43,
+      "name": "SuddenDeathTimer",
+      "author": "Antimality",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/Antimality-SuddenDeathTimer-1.0.0.png.256x256_q95_crop.png",
+      "description": "Displays a timer on the top of the screen indicating how long until Sudden Death begins.",
+      "github": "https://thunderstore.io/c/bopl-battle/p/Antimality/SuddenDeathTimer/"
+    }
+  ]
+}

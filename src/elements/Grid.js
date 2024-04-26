@@ -31,7 +31,7 @@ const Grid = ({ source }) => {
                 {[
                     ...mods.filter((mod) => mod.name.toLowerCase().includes(searchTerm.toLowerCase())).map((mod) => (
                         <div key={mod.name} className='mod'>
-                            <img className="modImg" src={`../../images/modicons/${mod.img}`} alt={mod.name} onClick={() => window.open(mod.github, '_blank') || './503.html'}/>
+                            <img className="modImg" src={`${mod.img}`} alt={mod.name} onClick={() => window.open(mod.github, '_blank') || './503.html'}/>
                             <p className="modInfo modName">{mod.name}</p>
                             <p className="modInfo modAuthor">{mod.author || 'Mod author not found.'}</p>
                             <div className="buttonContainer">

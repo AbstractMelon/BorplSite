@@ -1,14 +1,19 @@
-:root {
-  --main-accent-color: rgba(229, 244, 255, 0.568);
-  --secondary-accent-color: rgba(101, 184, 235, 0.781);
-  --highlighted-accent-color: rgba(79, 152, 197, 0.664);
-  --footer-main: rgba(229, 244, 255, 0.795);
-  --border-outline: rgba(0, 0, 0, 0.1);
-  --popup-text-background: rgb(135, 206, 250);
-  --text-color: rgb(87, 87, 87);
-  --button-hover: rgba(79, 152, 197, 0.664);
-  --tab-background: rgba(87, 161, 207, 0.781);
-  --button-background: rgba(135, 206, 250, 0.87);
+@media(prefers-color-scheme: light){
+  body{
+    background: url('../public/images/background.png') center/cover fixed;
+  }
+  :root {
+    --main-accent-color: rgba(229, 244, 255, 0.568);
+    --secondary-accent-color: rgba(101, 184, 235, 0.781);
+    --highlighted-accent-color: rgba(79, 152, 197, 0.664);
+    --footer-main: rgba(229, 244, 255, 0.795);
+    --border-outline: rgba(0, 0, 0, 0.1);
+    --popup-text-background: rgb(135, 206, 250);
+    --text-color: rgb(87, 87, 87);
+    --button-hover: rgba(79, 152, 197, 0.664);
+    --tab-background: rgba(87, 161, 207, 0.781);
+    --button-background: rgba(135, 206, 250, 0.87);
+  }
 }
 
 @media(prefers-color-scheme: dark){
@@ -29,12 +34,123 @@
   }
 }
 
-@media(prefers-color-scheme: light){
-  body{
-    background: url('../public/images/background.png') center/cover fixed;
-  }
+body.light{
+  background: url('../public/images/background.png') center/cover fixed;
+  --main-accent-color: rgba(229, 244, 255, 0.568);
+  --secondary-accent-color: rgba(101, 184, 235, 0.781);
+  --highlighted-accent-color: rgba(79, 152, 197, 0.664);
+  --footer-main: rgba(229, 244, 255, 0.795);
+  --border-outline: rgba(0, 0, 0, 0.1);
+  --popup-text-background: rgb(135, 206, 250);
+  --text-color: rgb(87, 87, 87);
+  --button-hover: rgba(79, 152, 197, 0.664);
+  --tab-background: rgba(87, 161, 207, 0.781);
+  --button-background: rgba(135, 206, 250, 0.87);
 }
 
+body.dark{
+  background: url('../public/images/background-dark.png') center/cover fixed;
+  --main-accent-color: rgba(53, 53, 53, 0.61);
+  --secondary-accent-color: rgba(71, 76, 80, 0.781);
+  --highlighted-accent-color: rgba(79, 152, 197, 0.664);
+  --footer-main: rgba(53, 53, 53, 0.61);
+  --border-outline: rgba(0, 0, 0, 0.1);
+  --popup-text-background: rgb(54, 64, 70);
+  --text-color: rgb(202, 202, 202);
+  --button-hover: rgba(32, 40, 44, 0.664);
+  --tab-background: rgba(52, 59, 59, 0.781);
+  --button-background: rgba(78, 99, 112, 0.87);
+}
+
+@font-face {
+  font-family: 'bopl';
+  src: url('../public/data/SFArchRivalBold.ttf') format('truetype');
+}
+
+body.menu{
+  font-family: bopl;
+  font-size: 1.3em;
+  background: url('../public/images/background-bopl.png') center/cover fixed;
+  --main-accent-color: #2098ee;
+  --secondary-accent-color: rgb(20, 94, 146);
+  --highlighted-accent-color: rgb(79, 152, 197);
+  --footer-main: #2098ee;
+  --border-outline: rgba(0, 0, 0, 0.1);
+  --popup-text-background: rgb(54, 64, 70);
+  --text-color: rgb(13, 57, 88);
+  --button-hover: rgb(28, 126, 196);
+  --tab-background: rgb(28, 126, 196);
+  --button-background: rgba(78, 99, 112, 0.87);
+}
+
+body.menu .container{
+  border: 5px var(--secondary-accent-color) solid;
+}
+
+body.menu .NavBar{
+  border-bottom: 5px var(--secondary-accent-color) solid;
+}
+
+body.menu button{
+  border: 5px var(--secondary-accent-color) solid;
+  font-family: bopl;
+}
+
+body.menu footer{
+  border-top: 5px var(--secondary-accent-color) solid;
+}
+
+body.menu footer p{
+  font-size: 1.2em;
+}
+
+body.menu .tab-content{
+  border: 5px var(--secondary-accent-color) solid;
+}
+
+body.menu .tab{
+  border-bottom: 0px!important;
+}
+
+body.menu .mod{
+  border: 5px var(--secondary-accent-color) solid;
+}
+
+body.menu .search{
+  font-family: bopl;
+  border: 5px var(--secondary-accent-color) solid;
+}
+
+body.menu .button{
+  border: 5px var(--secondary-accent-color) solid;
+
+}
+
+.settingsIcon{
+  vertical-align: middle;
+  position: absolute;
+  top: 20%;
+  right: 0.5rem;
+}
+
+.settings{
+  color: var(--text-color);
+}
+
+.settings button{
+  background-color: var(--main-accent-color);
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  color: var(--text-color);
+  font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+}
+
+.settings h3{
+  margin-top: 5px;
+}
 
 body {
   font-family: Arial, sans-serif;
@@ -200,6 +316,7 @@ code {
   background-color: #ffffff00 !important;
   backdrop-filter: none !important;
   margin-top: 0px !important;
+  border: 0px!important;
 }
 
 .btn {
@@ -359,6 +476,7 @@ code {
   font-size: 18px;
   color: var(--text-color);
   text-decoration: none;
+  fill: var(--text-color);
 }
 
 .container {

@@ -1,63 +1,63 @@
 const express = require('express');
-const path = require('path');
+const mongoose = require('mongoose');
+const bodyParser = require('body-parser');
 
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 5000;
 
-// Serve static files from the React app
-app.use(express.static(path.join(__dirname, 'build')));
+// Connect to MongoDB
+mongoose.connect('mongodb://localhost/borpldb', { useNewUrlParser: true, useUnifiedTopology: true })
+    .then(() => console.log('Connected to MongoDB'))
+    .catch(err => console.error('Failed to connect to MongoDB', err));
 
-// Define API routes
-const apiRouter = express.Router();
-
-apiRouter.get('/', (req, res) => {
-  res.json('Welcome to the borpl API!');
+// Define Post schema
+const PostSchema = new mongoose.Schema({
+    title: String,
+    content: String,
+    comments: [String]
 });
 
-// Define routes for different API endpoints
-apiRouter.get('/mods', (req, res) => {
-  const mods = require('./public/data/mods.json');
-  res.json(mods);
+const Post = mongoose.model('Post', PostSchema);
+
+app.use(bodyParser.json());
+
+// Routes
+app.get('/posts', async (req, res) => {
+    try {
+        const posts = await Post.find();
+        res.json(posts);
+    } catch (err) {
+        res.status(500).json({ message: err.message });
+    }
 });
 
-// Route for downloading a specific mod
-apiRouter.get('/mods/:modname/download', (req, res) => {
-  const modName = req.params.modname;
-  res.send(`Downloading ${modName}`);
+app.post('/posts', async (req, res) => {
+    const post = new Post({
+        title: req.body.title,
+        content: req.body.content,
+        comments: []
+    });
+
+    try {
+        const newPost = await post.save();
+        res.status(201).json(newPost);
+    } catch (err) {
+        res.status(400).json({ message: err.message });
+    }
 });
 
-// Route for serving maps
-apiRouter.get('/maps', (req, res) => {
-  res.json('Maps');
+app.post('/posts/:id/comments', async (req, res) => {
+    try {
+        const post = await Post.findById(req.params.id);
+        if (post == null) {
+            return res.status(404).json({ message: 'Post not found' });
+        }
+        post.comments.push(req.body.comment);
+        await post.save();
+        res.json(post);
+    } catch (err) {
+        res.status(500).json({ message: err.message });
+    }
 });
 
-// Route for serving guns
-apiRouter.get('/guns', (req, res) => {
-  const guns = require('./public/data/guns.json');
-  res.json(guns);
-});
-
-// Route for serving a specific map
-apiRouter.get('/maps/:mapname', (req, res) => {
-  const mapName = req.params.mapname;
-  res.send(`Map: ${mapName}`);
-});
-
-// Route for serving a specific gun
-apiRouter.get('/guns/:gunname', (req, res) => {
-  const gunName = req.params.gunname;
-  res.send(`Gun: ${gunName}`);
-});
-
-// Mount the API router at /api
-app.use('/api', apiRouter);
-
-// Serve the React app
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
-});
-
-// Start the server
-app.listen(PORT, () => {
-  console.log(`Server is listening on port ${PORT}`);
-});
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

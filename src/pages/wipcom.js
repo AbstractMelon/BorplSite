@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
 function Community() {
     const [posts, setPosts] = useState([]);
@@ -6,6 +7,12 @@ function Community() {
     const [newPostContent, setNewPostContent] = useState('');
     const [showPostForm, setShowPostForm] = useState(false);
     const [newComment, setNewComment] = useState('');
+
+    useEffect(() => {
+        axios.get('/posts')
+            .then(response => setPosts(response.data))
+            .catch(error => console.error('Error fetching posts:', error));
+    }, []);
 
     const handleTitleChange = (e) => {
         setNewPostTitle(e.target.value);
@@ -20,31 +27,29 @@ function Community() {
     };
 
     const addPost = () => {
-        const newPost = {
-            id: posts.length + 1, 
-            title: newPostTitle,
-            content: newPostContent,
-            comments: [], 
-        };
-        setPosts([...posts, newPost]); 
-        setNewPostTitle('');
-        setNewPostContent('');
-        setShowPostForm(false); 
+        axios.post('/posts', { title: newPostTitle, content: newPostContent })
+            .then(response => {
+                setPosts([...posts, response.data]);
+                setNewPostTitle('');
+                setNewPostContent('');
+                setShowPostForm(false);
+            })
+            .catch(error => console.error('Error adding post:', error));
     };
 
-
     const addComment = (postId) => {
-        const updatedPosts = posts.map(post => {
-            if (post.id === postId) {
-                return {
-                    ...post,
-                    comments: [...post.comments, newComment],
-                };
-            }
-            return post;
-        });
-        setPosts(updatedPosts);
-        setNewComment(''); 
+        axios.post(`/posts/${postId}/comments`, { comment: newComment })
+            .then(response => {
+                const updatedPosts = posts.map(post => {
+                    if (post._id === postId) {
+                        return response.data;
+                    }
+                    return post;
+                });
+                setPosts(updatedPosts);
+                setNewComment('');
+            })
+            .catch(error => console.error('Error adding comment:', error));
     };
 
     return (
@@ -71,7 +76,7 @@ function Community() {
             )}
             <div>
                 {posts.map(post => (
-                    <div key={post.id}>
+                    <div key={post._id}>
                         <h2>{post.title}</h2>
                         <p>{post.content}</p>
                         <h3>Comments:</h3>
@@ -87,7 +92,7 @@ function Community() {
                                 value={newComment} 
                                 onChange={handleCommentChange} 
                             />
-                            <button onClick={() => addComment(post.id)}>Post</button>
+                            <button onClick={() => addComment(post._id)}>Post</button>
                         </div>
                     </div>
                 ))}

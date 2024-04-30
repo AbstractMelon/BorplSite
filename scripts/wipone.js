@@ -2,7 +2,7 @@ const axios = require('axios');
 
 async function fetchModsData() {
   try {
-    const response = await axios.get('https://thunderstore.io/c/3dash/api/v1/package/');
+    const response = await axios.get('https://thunderstore.io/c/bopl-battle/api/v1/package/');
     const data = response.data;
     const mods = data.results.map(mod => ({
       name: mod.name,

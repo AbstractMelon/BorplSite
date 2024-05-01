@@ -14,7 +14,6 @@ const scrapeMods = async () => {
         const name = $(element).find('h5.mb-0.overflow-hidden.text-nowrap.w-100').attr('title');
         const author = $(element).find('.overflow-hidden.text-nowrap.w-100 a').text();
         const img = $(element).find('.w-100').attr('src');
-        const description = $(element).find('.bg-light.px-2.flex-grow-1').text().replace(/\n/g, '').replace('Mods', '').trim();
         const github = $(element).find('a').attr('href');
 
         mods.push({
@@ -22,7 +21,6 @@ const scrapeMods = async () => {
             name,
             author,
             img,
-            description,
             github
         });
     });

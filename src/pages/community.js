@@ -51,7 +51,7 @@ function Community() {
         <div className='container'>
             <h1>Community News/Forum</h1>
             {!showPostForm && (
-                <button onClick={() => setShowPostForm(true)}>Make a post</button>
+                <button className='button' onClick={() => setShowPostForm(true)}>Make a post</button>
             )}
             {showPostForm && (
                 <>

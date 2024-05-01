@@ -13,10 +13,10 @@ function Settings() {
     return (
         <div className='container settings'>
             <h3>Themes:</h3>
-            <button onClick={() => changeTheme('light')}>Light Theme</button>
-            <button onClick={() => changeTheme('dark')}>Dark Theme</button>
-            <button onClick={() => changeTheme('menu')}>Bopl (Experimental)</button>
-            <button onClick={() => changeTheme('')}>System Default</button>
+            <button className='button' onClick={() => changeTheme('light')}>Light Theme</button>
+            <button className='button' onClick={() => changeTheme('dark')}>Dark Theme</button>
+            <button className='button' onClick={() => changeTheme('menu')}>Bopl (Experimental)</button>
+            <button className='button' onClick={() => changeTheme('')}>System Default</button>
         </div>
     );
 }

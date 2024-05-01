@@ -68,7 +68,7 @@ function Community() {
                         onChange={handleContentChange} 
                         className='community-input content'
                     />
-                    <button onClick={addPost}>Post</button>
+                    <button className='button' onClick={addPost}>Post</button>
                 </>
             )}
             <div className='community-subconatiner'>
@@ -90,7 +90,7 @@ function Community() {
                                 onChange={handleCommentChange} 
                                 className='community-input comment'
                             />
-                            <button onClick={() => addComment(post.id)}>Post</button>
+                            <button className='button'onClick={() => addComment(post.id)}>Post</button>
                         </div>
                     </div>
                 ))}

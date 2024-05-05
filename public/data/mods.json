@@ -384,6 +384,34 @@
       "author": "AbstractMelon",
       "img": "https://gcdn.thunderstore.io/live/repository/icons/AbstractMelon-SlightCooldowns-1.0.0.png.256x256_q95_crop.png",
       "github": "https://thunderstore.io/c/bopl-battle/p/AbstractMelon/SlightCooldowns/"
+    },
+    {
+      "key": 56,
+      "name": "FiberLib",
+      "author": "FiberLib",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/FiberLib-FiberLib-1.0.0.png.256x256_q95_crop.png",
+      "github": "https://thunderstore.io/c/bopl-battle/p/FiberLib/FiberLib/"
+    },
+    {
+      "key": 57,
+      "name": "AtomGrenade",
+      "author": "almafa64",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/almafa64-AtomGrenade-1.0.2.png.256x256_q95_crop.png",
+      "github": "https://thunderstore.io/c/bopl-battle/p/almafa64/AtomGrenade/"
+    },
+    {
+      "key": 58,
+      "name": "AntiMatchmaking",
+      "author": "AbstractMelon",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/AbstractMelon-AntiMatchmaking-1.0.1.png.256x256_q95_crop.png",
+      "github": "https://thunderstore.io/c/bopl-battle/p/AbstractMelon/AntiMatchmaking/"
+    },
+    {
+      "key": 59,
+      "name": "BoplGuns",
+      "author": "Shad0w_dev",
+      "img": "https://gcdn.thunderstore.io/live/repository/icons/Shad0w_dev-BoplGuns-1.0.0.png.256x256_q95_crop.jpg",
+      "github": "https://thunderstore.io/c/bopl-battle/p/Shad0w_dev/BoplGuns/"
     }
   ]
 }

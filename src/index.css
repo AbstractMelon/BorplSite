@@ -126,6 +126,44 @@ body.menu .button{
 
 }
 
+.text-wrap{
+  text-wrap: wrap;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.community-input{
+  background-color: var(--main-accent-color);
+  border: 0px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.3em;
+  display: block;
+  color:var(--text-color); 
+  width: 95%;
+  margin: 5px;
+}
+
+.comment{
+  font-size: 1em;
+}
+
+.community-subconatiner{
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: var(--main-accent-color);
+  color: var(--text-color);
+  text-wrap: wrap;
+}
+
+.content{
+  width: 95%;
+  min-height: 60vh;
+  font-size: 1.2em;
+  display: block;
+}
+
 .settingsIcon{
   vertical-align: middle;
   position: absolute;
@@ -137,7 +175,7 @@ body.menu .button{
   color: var(--text-color);
 }
 
-.settings button{
+.button{
   background-color: var(--main-accent-color);
   padding: 10px;
   margin: 5px;
@@ -146,6 +184,11 @@ body.menu .button{
   font-size: 1.2em;
   border: none;
   cursor: pointer;
+}
+
+.button:hover{
+  transition: ease-in-out 0.3s;
+  background-color: var(--button-hover);
 }
 
 .settings h3{
@@ -536,6 +579,7 @@ footer {
   margin-top: 20px;
 }
 
+/*
 .button {
   display: inline-block;
   padding: 10px;
@@ -551,6 +595,7 @@ footer {
 .button:hover {
   background-color: var(--button-hover);
 }
+*/
 
 .button-grid {
   display: grid;

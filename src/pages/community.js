@@ -48,32 +48,34 @@ function Community() {
     };
 
     return (
-        <div>
+        <div className='container'>
             <h1>Community News/Forum</h1>
             {!showPostForm && (
-                <button onClick={() => setShowPostForm(true)}>Make a post</button>
+                <button className='button' onClick={() => setShowPostForm(true)}>Make a post</button>
             )}
             {showPostForm && (
-                <div>
+                <>
                     <input 
                         type="text" 
                         placeholder="Enter post title" 
                         value={newPostTitle} 
                         onChange={handleTitleChange} 
+                        className='community-input title'
                     />
                     <textarea 
                         placeholder="Enter post content" 
                         value={newPostContent} 
                         onChange={handleContentChange} 
+                        className='community-input content'
                     />
-                    <button onClick={addPost}>Post</button>
-                </div>
+                    <button className='button' onClick={addPost}>Post</button>
+                </>
             )}
-            <div>
+            <div className='community-subconatiner'>
                 {posts.map(post => (
                     <div key={post.id}>
-                        <h2>{post.title}</h2>
-                        <p>{post.content}</p>
+                        <h2 className='text-wrap'>{post.title}</h2>
+                        <p className='text-wrap'>{post.content}</p>
                         <h3>Comments:</h3>
                         <ul>
                             {post.comments.map((comment, index) => (
@@ -86,8 +88,9 @@ function Community() {
                                 placeholder="Enter your comment" 
                                 value={newComment} 
                                 onChange={handleCommentChange} 
+                                className='community-input comment'
                             />
-                            <button onClick={() => addComment(post.id)}>Post</button>
+                            <button className='button'onClick={() => addComment(post.id)}>Post</button>
                         </div>
                     </div>
                 ))}

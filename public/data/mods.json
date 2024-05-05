@@ -362,7 +362,6 @@
       "name": "ExtinctionMeteor",
       "author": "savaGe",
       "img": "https://gcdn.thunderstore.io/live/repository/icons/savaGe-ExtinctionMeteor-1.0.0.png.256x256_q95_crop.png",
-      "description": "Makes the meteor smash way more powerful",
       "github": "https://thunderstore.io/c/bopl-battle/p/savaGe/ExtinctionMeteor/"
     },
     {
@@ -370,7 +369,6 @@
       "name": "FrictionlessArrows",
       "author": "AbstractMelon",
       "img": "https://gcdn.thunderstore.io/live/repository/icons/AbstractMelon-FrictionlessArrows-1.0.0.png.256x256_q95_crop.png",
-      "description": "Makes the arrows keep going forever!",
       "github": "https://thunderstore.io/c/bopl-battle/p/AbstractMelon/FrictionlessArrows/"
     },
     {
@@ -378,7 +376,6 @@
       "name": "InstantRoll",
       "author": "AbstractMelon",
       "img": "https://gcdn.thunderstore.io/live/repository/icons/AbstractMelon-InstantRoll-1.0.0.png.256x256_q95_crop.png",
-      "description": "Makes the roll charge up instantly!",
       "github": "https://thunderstore.io/c/bopl-battle/p/AbstractMelon/InstantRoll/"
     },
     {
@@ -386,7 +383,6 @@
       "name": "SlightCooldowns",
       "author": "AbstractMelon",
       "img": "https://gcdn.thunderstore.io/live/repository/icons/AbstractMelon-SlightCooldowns-1.0.0.png.256x256_q95_crop.png",
-      "description": "Makes the cooldowns 1/3 of what they normally are!",
       "github": "https://thunderstore.io/c/bopl-battle/p/AbstractMelon/SlightCooldowns/"
     }
   ]
